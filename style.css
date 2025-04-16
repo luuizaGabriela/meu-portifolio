@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #16191D;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    width: 100vw;
+    height: 50px;
+    background-color: #3565a3;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+
+
+}
+
+a {
+    color: #FFFFFF;
+}
+
+.fundo {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.olho{
+    justify-self: flex-start;
+}
+
