@@ -8,7 +8,7 @@ body {
     background-color: #000006;
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
-    padding-top: 80px; 
+    padding-top: 80px;
 }
 
 .menu ul {
@@ -26,11 +26,11 @@ body {
     z-index: 1000;
 }
 
-.menu > ul > .item-menu {
+.menu>ul>.item-menu {
     position: relative;
 }
 
-.menu ul .item-menu > a {
+.menu ul .item-menu>a {
     display: block;
     padding: 25px 20px;
     color: #ffffff;
@@ -90,7 +90,7 @@ html {
 }
 
 .sobre-mim {
-    max-width: 800px;
+    max-width: 750px;
     width: 100%;
     padding: 30px;
     background-color: #18181b;
@@ -123,7 +123,7 @@ h1 {
     margin-bottom: 16px;
 }
 
-.habilidades {
+.habilidades-perfil {
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -131,7 +131,7 @@ h1 {
     margin: 20px 0;
 }
 
-.habilidades li {
+.habilidades-perfil li {
     padding: 8px 16px;
 }
 
@@ -150,4 +150,91 @@ a {
 
 .olho {
     justify-self: flex-start;
+}
+
+.habilidades {
+    max-width: 750px;
+    width: 100%;
+    padding: 30px;
+    background-color: #18181b;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px #0000004d;
+    text-align: left;
+    margin: 40px auto;
+}
+
+.habilidades>h1:first-child {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.habilidades p {
+    color: #e0e0e0;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.habilidades code {
+    background-color: #2d2d2d;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+.habilidades:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.trabalhos {
+    max-width: 750px;
+    width: 100%;
+    padding: 30px;
+    background-color: #18181b;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px #0000004d;
+    text-align: left;
+    margin: 40px auto;
+    transition: transform 0.3s ease;
+}
+
+.trabalhos:hover {
+    transform: translateY(-5px);
+}
+
+.trabalhos h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trabalhos p {
+    color: #e0e0e0;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.social-footer {
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 8px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1)
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
 }
